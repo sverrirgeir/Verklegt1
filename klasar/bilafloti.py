@@ -1,10 +1,8 @@
-Class Cars (object):
+def allcars():
+    with open("cars.txt", "r") as f:
+        for text in f:
+            all_cars = text.split(",")
+            print(all_cars)
+    return
 
-    def __init__(self, skra):
-        self.skra = skra
-
-    def allcars(skra):
-        file = open(skra, "r")
-        for text in file:
-            
-    
+allcars()
