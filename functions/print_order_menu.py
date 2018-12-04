@@ -1,8 +1,8 @@
 def print_order_menu():
-    choice1 = "1.Skrá nýja pöntun"
-    choice2 = "2.Leita af pöntun"
-    choice3 ="3.Pöntunarlisti"
-    choice4 ="4.Til baka"
+    choice1 = "1. Skrá nýja pöntun"
+    choice2 = "2. Leita af pöntun"
+    choice3 ="3. Pöntunarlisti"
+    choice4 ="4. Til baka"
 
     print("")
     print("\t{:^10}".format("Pantanir"))
