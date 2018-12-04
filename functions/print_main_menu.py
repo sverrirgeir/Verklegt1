@@ -1,5 +1,6 @@
 
 def print_main_menu():
+    """Prints out the main menu and returns a input sentence asking for a choice"""
     choice1 = "1. Pantanir"
     choice2 = "2. Viðskiptavinir"
     choice3 = "3. Bílar"
