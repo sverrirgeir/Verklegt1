@@ -1,15 +1,19 @@
 from functions.print_order_menu import print_order_menu
+from functions.print_clients_menu import print_clients_menu
+from functions.print_car_menu import print_car_menu
+from functions.print_price_menu import print_price_menu
+from functions.print_order_car_menu import print_order_car_menu
 
 def determine_choice(choice):
     if choice == "1":
         print_order_menu()
     elif choice == "2":
-        pass
+        print_clients_menu()
     elif choice == "3":
-        pass
+        print_car_menu()
     elif choice == "4":
-        pass
+        print_price_menu()
     elif choice == "5":
-        pass
+        print_order_car_menu()
     else:
         return False
