@@ -1,4 +1,4 @@
-from Verklegt1.Main import main
+
 def print_price_menu():
     """Prints out the main menu and returns a input sentence asking for a choice"""
     insure = "Aukatrygging 30.000kr"
@@ -43,7 +43,5 @@ def print_price_menu():
     print("\t{:<30}\n\t{:<10}".format("1. Prenta út Verðlista","2. Til baka"))
     print("")
     val = input("\tValmöguleiki: ")
-    print(val)
-    main()
-        
+    
     return 
